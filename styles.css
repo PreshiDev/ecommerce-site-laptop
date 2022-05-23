@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Kurale&family=Rubik&family=Tapestry&display=swap");
+/* SASS TEMPLATE */
+/* global classes */
+button.button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* typography classes */
+.font-Tapestry {
+  font-family: "Tapestry", cursive;
+}
+
+.font-Kurale {
+  font-family: "Kurale", cursive;
+}
+
+.font-Rubik {
+  font-family: "Rubik", cursive;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+/* Color Primary-classes */
+.color-primary {
+  color: #003859;
+}
+
+.color-primary-bg {
+  color: #003859;
+}
+
+.color-second {
+  color: #00A5C4;
+}
+
+.color-second-bg {
+  background: #00A5C4;
+}
+
+.color-yellow {
+  color: #FFD289;
+}
+
+.color-yellow-bg {
+  background: #FFD289;
+}
+
+/* Top sales templates */
+#Top-sales .owl-carousel .item .product a {
+  overflow: hidden;
+}
+#Top-sales .owl-carousel .item .product img {
+  transition: transform 0.6s ease;
+}
+#Top-sales .owl-carousel .item .product img:hover {
+  transform: scale(1.1);
+}
+#Top-sales .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+#Top-sales .owl-carousel .owl-nav button.nav-prev {
+  left: 0;
+  font-size: 35px;
+  color: #003859;
+}
+
+/* Special Sales Template */
+#special-prices .grid .grid-item {
+  margin-right: 1.2rem;
+  margin-top: 1rem;
+}
+
+/*# sourceMappingURL=styles.css.map */

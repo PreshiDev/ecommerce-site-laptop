@@ -1,0 +1,28 @@
+/* Top sales templates */
+
+
+#Top-sales{
+    .owl-carousel .item .product a{
+        overflow: hidden;
+    }
+
+    .owl-carousel .item .product img{
+        transition: transform .6s ease;
+    }
+
+    .owl-carousel .item .product img:hover{
+        transform: scale(1.1);
+    }
+
+    .owl-carousel .owl-nav button{
+        position: absolute;
+        top: 30%;
+        outline: none;
+    }
+
+    .owl-carousel .owl-nav button.nav-prev{
+        left: 0;
+        font-size: 35px;
+        color: $color-primary;
+    }
+}
